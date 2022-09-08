@@ -74,7 +74,7 @@ h1 {
     color: #f9faf8;
 }
 
-p {
+.heroText p {
     max-width: 400px;
     margin-top: 30px;
 }
@@ -91,8 +91,105 @@ button {
     font-weight: bold;
     border-radius: 10px;
     transition: 250ms;
+    border-style: none;
 }
 
 button:hover {
     transform: translateY(-5px);
+}
+
+.midHeader {
+    display: flex;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.catPics {
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.catImages {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin-top: 50px;
+}
+
+.textUnderCats {
+    display: flex;
+    margin-top: 20px;
+    gap: 80px;
+    margin-left: 230px;
+}
+
+.catText1, .catText2, .catText3, .catText4 {
+    max-width: 300px;
+}
+
+.bottomPart {
+    display: flex;
+    background-color: #e5e7eb;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.quote {
+    max-width: 1000px;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+    padding: 80px 0px;
+}
+
+.writer {
+    margin-top: 50px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: bold;
+    text-align: right;
+}
+
+.signUp {
+    align-items: center;
+    font-size: 24px;
+    font-weight: 300;
+    max-width: 800px;
+    max-height: 300px;
+    margin-top: 100px;
+    padding: 30px 50px;
+    display: flex;
+    margin-left: 510px;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border-radius: 30px;
+    margin-bottom: 200px;
+}
+
+.bold {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.bottomBtn {
+    width: 120px;
+    height: fit-content;
+    border-color: #e5e7eb;
+    border-style: solid;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    padding: 20px 0;
 }
